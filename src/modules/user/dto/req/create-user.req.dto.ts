@@ -14,7 +14,7 @@ import {
   ValidateNested,
 } from 'class-validator';
 
-import { TransformHelper } from '../../../common/helpers/transform.helpers';
+import { TransformHelper } from '../../../../common/helpers/transform.helpers';
 
 class CarReqDto {
   @IsString()
